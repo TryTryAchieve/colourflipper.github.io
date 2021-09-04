@@ -1,0 +1,30 @@
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.colour{
+    background-color: aqua;
+}
+nav ul li{
+    padding-right:20vw ;
+    padding-left: 20vw;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+.container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+#btn{
+    cursor: pointer;
+    border:2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:rgb(59, 58, 58);
+    color: white;
+}
